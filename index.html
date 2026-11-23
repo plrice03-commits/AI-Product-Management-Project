@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basin &amp; Bean Coffee Co. | Salt Lake City Coffee Roasters</title>
+  <meta name="description" content="Basin & Bean is a small-batch coffee roaster and café in Salt Lake City. Order ahead, visit one of our two shops, or join the Bean Club." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23C2562F'/><ellipse cx='50' cy='50' rx='18' ry='28' fill='%23F6EFE4' transform='rotate(25 50 50)'/></svg>" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <div class="demo-bar">
+    Sample site designed by <strong>Edward Palmquist Web Design</strong>. Basin &amp; Bean is a fictional business.
+    <a href="#contact">Want one like this?</a>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#" class="logo" aria-label="Basin & Bean home">
+        <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#C2562F"/><ellipse cx="20" cy="20" rx="7" ry="11.5" fill="#F6EFE4" transform="rotate(25 20 20)"/><path d="M17 11 Q23 20 17 29" stroke="#C2562F" stroke-width="1.6" fill="none" transform="rotate(25 20 20)"/></svg>
+        <span>Basin <em>&amp;</em> Bean</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav id="nav" class="nav">
+        <a href="#menu">Menu</a>
+        <a href="#roasts">Our Roasts</a>
+        <a href="#locations">Locations</a>
+        <a href="#club">Bean Club</a>
+        <a href="#order" class="btn btn-small">Order Ahead</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Small-batch roasted in Salt Lake City</p>
+          <h1>Coffee worth<br />the <span class="underline">drive up</span><br />the canyon.</h1>
+          <p class="lede">We roast every Tuesday and Friday in a 12-kilo drum on 900 South, then pour it at two neighborhood shops. No burnt beans and no syrup bombs. Just good coffee, made by people who remember your name.</p>
+          <div class="hero-ctas">
+            <a href="#order" class="btn">Order Ahead</a>
+            <a href="#locations" class="btn btn-ghost">Find a Shop</a>
+          </div>
+          <ul class="hero-proof">
+            <li><strong>4.9★</strong> 1,200+ reviews</li>
+            <li><strong>2</strong> SLC locations</li>
+            <li><strong>Est.</strong> 2018</li>
+          </ul>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="cup">
+            <div class="steam"><span></span><span></span><span></span></div>
+            <div class="cup-body"><div class="latte-art"></div></div>
+            <div class="cup-handle"></div>
+            <div class="saucer"></div>
+          </div>
+          <div class="badge">Fresh<br/>roast<br/><strong>Fri</strong></div>
+        </div>
+      </div>
+      <div class="mountains" aria-hidden="true">
+        <svg viewBox="0 0 1440 140" preserveAspectRatio="none"><path d="M0 140 L0 90 L160 40 L280 85 L420 20 L560 80 L700 35 L860 95 L1000 30 L1160 75 L1300 25 L1440 70 L1440 140 Z" fill="#F6EFE4"/></svg>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="section">
+      <div class="wrap">
+        <p class="eyebrow center">The Menu</p>
+        <h2 class="center">Short list. Done right.</h2>
+        <div class="menu-tabs" role="tablist">
+          <button role="tab" class="tab active" data-tab="coffee" aria-selected="true">Coffee</button>
+          <button role="tab" class="tab" data-tab="tea" aria-selected="false">Not Coffee</button>
+          <button role="tab" class="tab" data-tab="food" aria-selected="false">Bakery</button>
+        </div>
+
+        <div class="menu-panel active" id="panel-coffee">
+          <div class="menu-item"><div><h3>Drip of the Day</h3><p>Rotating single origin, brewed fresh every 30 minutes.</p></div><span>$3.25</span></div>
+          <div class="menu-item"><div><h3>Cortado</h3><p>Double shot cut with an equal pour of steamed milk.</p></div><span>$4.25</span></div>
+          <div class="menu-item"><div><h3>Honey Lavender Latte</h3><p>Local Utah honey, house lavender syrup and whole milk.</p></div><span>$5.75</span></div>
+          <div class="menu-item"><div><h3>Canyon Cold Brew</h3><p>Steeped for 18 hours, served black or with oat cream.</p></div><span>$4.75</span></div>
+          <div class="menu-item"><div><h3>Pour Over</h3><p>Your choice of roast, made by hand on a V60.</p></div><span>$5.50</span></div>
+          <div class="menu-item"><div><h3>Dirty Horchata</h3><p>House horchata with a shot of espresso. A cult favorite.</p></div><span>$5.95</span></div>
+        </div>
+        <div class="menu-panel" id="panel-tea">
+          <div class="menu-item"><div><h3>Ceremonial Matcha</h3><p>Whisked to order, hot or iced.</p></div><span>$5.25</span></div>
+          <div class="menu-item"><div><h3>Chai</h3><p>Spiced black tea concentrate brewed in house.</p></div><span>$4.95</span></div>
+          <div class="menu-item"><div><h3>Hot Chocolate</h3><p>Made with Utah-made dark chocolate and topped with a torched marshmallow.</p></div><span>$4.50</span></div>
+          <div class="menu-item"><div><h3>Dirty Soda</h3><p>It's Utah, so we had to. Coke, coconut and lime.</p></div><span>$3.75</span></div>
+        </div>
+        <div class="menu-panel" id="panel-food">
+          <div class="menu-item"><div><h3>Brown Butter Croissant</h3><p>Baked every morning by our neighbors at Sugar House Bakery.</p></div><span>$4.25</span></div>
+          <div class="menu-item"><div><h3>Breakfast Burrito</h3><p>Egg, potato, green chile and cheddar. Add chorizo for $2.</p></div><span>$8.50</span></div>
+          <div class="menu-item"><div><h3>Cardamom Bun</h3><p>Knotted, glazed and gone by 10am.</p></div><span>$4.75</span></div>
+          <div class="menu-item"><div><h3>Avocado Toast</h3><p>Sourdough, chili crisp, pickled onion and flaky salt.</p></div><span>$9.00</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROASTS -->
+    <section id="roasts" class="section dark">
+      <div class="wrap">
+        <p class="eyebrow">Take it home</p>
+        <h2>This week's roasts</h2>
+        <div class="roast-grid">
+          <article class="roast">
+            <div class="bag" style="--c:#C2562F"><span>Ethiopia<br/>Guji</span></div>
+            <h3>Ethiopia Guji</h3>
+            <p class="notes">Blueberry · Jasmine · Lemon</p>
+            <div class="roast-meta"><span class="meter" style="--v:2"></span><span>Light</span><strong>$19 / 12oz</strong></div>
+          </article>
+          <article class="roast">
+            <div class="bag" style="--c:#4F6B4A"><span>Colombia<br/>Huila</span></div>
+            <h3>Colombia Huila</h3>
+            <p class="notes">Caramel · Red apple · Cocoa</p>
+            <div class="roast-meta"><span class="meter" style="--v:3"></span><span>Medium</span><strong>$17 / 12oz</strong></div>
+          </article>
+          <article class="roast">
+            <div class="bag" style="--c:#2B1D16"><span>Wasatch<br/>Blend</span></div>
+            <h3>Wasatch Blend</h3>
+            <p class="notes">Dark chocolate · Molasses · Toasted nut</p>
+            <div class="roast-meta"><span class="meter" style="--v:4"></span><span>Med-Dark</span><strong>$16 / 12oz</strong></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATIONS -->
+    <section id="locations" class="section">
+      <div class="wrap">
+        <p class="eyebrow center">Come say hi</p>
+        <h2 class="center">Visit the shop near you</h2>
+        <div class="loc-grid">
+          <article class="loc">
+            <div class="loc-map" aria-hidden="true"><span class="pin"></span></div>
+            <div class="loc-body">
+              <h3>9th &amp; 9th</h3>
+              <p>1024 E 900 S, Salt Lake City, UT 84105</p>
+              <p class="hours">Mon–Fri 6:30a–6p · Sat–Sun 7a–5p</p>
+              <p class="tag">Roastery on site · Patio · Dog friendly</p>
+              <a href="#order" class="link">Order from this shop →</a>
+            </div>
+          </article>
+          <article class="loc">
+            <div class="loc-map alt" aria-hidden="true"><span class="pin"></span></div>
+            <div class="loc-body">
+              <h3>Sugar House</h3>
+              <p>2150 S Highland Dr, Salt Lake City, UT 84106</p>
+              <p class="hours">Mon–Fri 6a–7p · Sat–Sun 7a–6p</p>
+              <p class="tag">Drive-thru · Free Wi-Fi · Study tables</p>
+              <a href="#order" class="link">Order from this shop →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section cream-2">
+      <div class="wrap">
+        <p class="eyebrow center">Sample reviews</p>
+        <h2 class="center">The regulars have spoken</h2>
+        <div class="review-grid">
+          <blockquote class="review"><div class="stars">★★★★★</div><p>"The Dirty Horchata ruined every other coffee shop for me."</p><cite>Sample review · Google</cite></blockquote>
+          <blockquote class="review"><div class="stars">★★★★★</div><p>"I've been coming here for years and they still remember my order. The cardamom buns sell out, so get there early."</p><cite>Sample review · Yelp</cite></blockquote>
+          <blockquote class="review"><div class="stars">★★★★★</div><p>"Best light roast in the valley. I get the Guji every week through the Bean Club."</p><cite>Sample review · Google</cite></blockquote>
+        </div>
+        <p class="fine center">Placeholder reviews for this demo. A real client site would pull in its own Google and Yelp reviews.</p>
+      </div>
+    </section>
+
+    <!-- WHY US -->
+    <section class="section">
+      <div class="wrap why-grid">
+        <div class="why"><div class="icon">☀</div><h3>Roasted twice a week</h3><p>Nothing on our shelf is older than 10 days. You'll find the roast date stamped on every bag.</p></div>
+        <div class="why"><div class="icon">♻</div><h3>Direct trade</h3><p>We pay farmers well above fair-trade minimums and visit our partners in person.</p></div>
+        <div class="why"><div class="icon">⚡</div><h3>Order ahead</h3><p>Skip the line. Your drink is ready in 5 minutes or the next one's on us.</p></div>
+      </div>
+    </section>
+
+    <!-- BEAN CLUB -->
+    <section id="club" class="section club">
+      <div class="wrap club-inner">
+        <div>
+          <p class="eyebrow">Subscription</p>
+          <h2>Join the Bean Club</h2>
+          <p>Get fresh coffee delivered every 2 or 4 weeks, plus 10% off in our shops and first dibs on limited roasts. You can skip or cancel anytime.</p>
+        </div>
+        <form class="club-form" onsubmit="event.preventDefault(); this.innerHTML='<p class=&quot;thanks&quot;>You\'re in! ☕ (Demo form, so nothing was sent.)</p>';">
+          <label for="email" class="sr">Email</label>
+          <input id="email" type="email" placeholder="you@email.com" required />
+          <button class="btn" type="submit">Join the Club</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+      <div class="wrap narrow">
+        <p class="eyebrow center">Questions</p>
+        <h2 class="center">Good to know</h2>
+        <details><summary>Do you have dairy-free milk?</summary><p>Yes. We have oat, almond and coconut milk at no extra charge, because we think that charge is silly.</p></details>
+        <details><summary>Can I buy beans ground?</summary><p>Absolutely. Tell us how you brew (drip, French press, espresso or pour over) and we'll grind it to match.</p></details>
+        <details><summary>Do you cater events?</summary><p>We do. Our espresso cart can come to offices, weddings and events anywhere along the Wasatch Front.</p></details>
+        <details><summary>Are you hiring?</summary><p>Often! Stop by either shop with a résumé, or email us below.</p></details>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section id="order" class="section final">
+      <div class="wrap center">
+        <h2>Ready for your first cup?</h2>
+        <p>Order ahead for pickup at 9th &amp; 9th or Sugar House.</p>
+        <div class="hero-ctas centered">
+          <a href="#order" class="btn btn-light" onclick="alertOrder(event)">Start an Order</a>
+          <a href="tel:+18015550142" class="btn btn-ghost-light">(801) 555-0142</a>
+        </div>
+        <p id="order-note" class="fine light" hidden>This is a demo site, so online ordering would connect to Square or Toast on a real build.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a href="#" class="logo light"><span>Basin <em>&amp;</em> Bean</span></a>
+        <p>Small-batch coffee roasters in Salt Lake City, Utah.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>9th &amp; 9th · 1024 E 900 S</p>
+        <p>Sugar House · 2150 S Highland Dr</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="tel:+18015550142">(801) 555-0142</a></p>
+        <p><a href="mailto:hello@basinandbean.example">hello@basinandbean.example</a></p>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <span>© 2026 Basin &amp; Bean Coffee Co. (fictional business)</span>
+      <span>Website by <strong>Edward Palmquist Web Design</strong></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
